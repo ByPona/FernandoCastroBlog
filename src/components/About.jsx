@@ -1,3 +1,5 @@
+import about from '../assets/about.jpg';
+
 export default function About() {
   return (
     <section id="about" className="about">
@@ -40,7 +42,7 @@ export default function About() {
           </div>
           <div className="about-image">
             <div className="avatar-placeholder">
-              <div className="avatar-icon"><img src="/src/assets/about.jpg" alt="" className="about-image" /></div>
+              <div className="avatar-icon"><img src={about} alt="" className="about-image" /></div>
             </div>
           </div>
         </div>

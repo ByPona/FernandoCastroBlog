@@ -43,6 +43,14 @@ export default function Projects() {
       link: "https://github.com/ByPona",
       type: 'In progress...',
       icon: "🤖"
+    },{
+      id: 6,
+      title: "Testing Playground",
+      description: "A guided conversation tool using generative AI, designed for users unfamiliar with artificial intelligence. It helps them formulate questions and provides accurate answers tailored to their needs.",
+      tech: ["React", "JavaScript", "Vercel", "Supabase", "JWT Authentication", "Github API", "Jira API", "React Native"],
+      link: "https://github.com/ByPona",
+      type: 'In progress...',
+      icon: "🤖"
     }
   ]
 

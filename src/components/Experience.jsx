@@ -1,3 +1,9 @@
+import c3ai from '../assets/c3ai.png';
+import tcs from '../assets/tcs.png';
+import tgcs from '../assets/tgcs.webp';
+import udg from '../assets/udg.webp';
+import nuevoAmanecer from '../assets/nuevoamanecer.webp';
+
 export default function Experience() {
   const experiences = [
     {
@@ -7,7 +13,7 @@ export default function Experience() {
       period: "Sep 2024 - Feb 2026",
       description: "Developed custom React components and frontend features integrated with the C3 backend. Implemented automated test plans for low-code solutions and built a Manager Dashboard to track regression builds, bug reports, and quality metrics. Collaborated with developers to validate patches and releases.",
       skills: ["Playwright", "API Testing", "Postman", "SQL", "JS", "CI/CD", "Express.js", "React"],
-      logo: "/src/assets/c3ai.png"
+      logo: c3ai
     },
     {
       id: 2,
@@ -16,7 +22,7 @@ export default function Experience() {
       period: "Jan 2024 - Sep 2024",
       description: "Delivered technical support for enterprise systems, developed SQL scripts and data pipelines within Snowflake ecosystems, and automated recurring ETL processes and data workflows using Selenium.",
       skills: ["Technical Support", "Bug Debugging", "SQL", "Snowflake", "AWS", "ETL"],
-      logo: "/src/assets/tcs.png"
+      logo: tcs
     },
     {
       id: 3,
@@ -25,7 +31,7 @@ export default function Experience() {
       period: "Jan 2023 - Dec 2023",
       description: "Worked in the Operating System testing area, validating performance, stability, and system-level configurations. Automated testing workflows through Jenkins pipelines and GitHub repositories, managed deployments and error capture using Ansible, and applied Linux/Unix scripting and embedded Python to configure and validate system environments.",
       skills: ["Manual and Automated Testing", "Selenium", "Jenkins", "Ansible", "Python"],
-      logo: "/src/assets/tgcs.webp"
+      logo: tgcs
     },
     {
       id: 4,
@@ -34,7 +40,7 @@ export default function Experience() {
       period: "Nov 2021 - Dec 2023",
       description: "Developed a modular system for biosignal acquisition, processing, and intelligent analysis. Research from this project was published in ScienceDirect. \nArticle Link: \nhttps://www.sciencedirect.com/science/article/pii/S2665963825000016",
       skills: ["React", "Express", "WebSockets", "PostgreSQL", "Electron"],
-      logo: "/src/assets/udg.webp"
+      logo: udg
     },
     {
       id: 5,
@@ -43,7 +49,7 @@ export default function Experience() {
       period: "Aug 2021 - Dec 2021",
       description: "Developed scalable web applications for event publishing using Django and PostgreSQL, implemented RESTful APIs to enhance functionality and user experience, and managed cloud infrastructure on AWS optimizing performance and reducing costs. Conducted code reviews and collaborated with cross-functional teams to gather requirements and deliver solutions efficiently.",
       skills: ["Django", "Python", "HTML", "CSS", "Material UI", "Bootstrap"],
-      logo: "/src/assets/nuevoamanecer.webp"
+      logo: nuevoAmanecer
     }
   ]
 

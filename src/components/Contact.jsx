@@ -1,36 +1,9 @@
-import { useState } from 'react'
+import loc from '../assets/loc.webp';
+import email from '../assets/email-logo.jpg';
+import whatsapp from '../assets/whatsapp.png';
+import github from '../assets/github.png';
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  })
-
-  const [submitted, setSubmitted] = useState(false)
-
-  const handleChange = (e) => {
-    const { name, value } = e.target
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }))
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Create mailto link
-    const mailtoLink = `mailto:play.fer01@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
-    )}`
-    window.location.href = mailtoLink
-    
-    // Reset form
-    setFormData({ name: '', email: '', subject: '', message: '' })
-    setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 3000)
-  }
 
   return (
     <section id="contact" className="contact">
@@ -47,7 +20,7 @@ export default function Contact() {
             <div className="contact-details">
               <div className="contact-item">
                 <span className="contact-icon">
-                  <img src="/src/assets/email-logo.jpg" alt="" className="company-logo"/>
+                  <img src={email} alt="" className="company-logo"/>
                 </span>
                 <div>
                   <h4>Email</h4>
@@ -57,7 +30,7 @@ export default function Contact() {
 
               <div className="contact-item">
                 <span className="contact-icon">
-                  <img src="/src/assets/whatsapp.png" alt="" className="company-logo"/>
+                  <img src={whatsapp} alt="" className="company-logo"/>
                 </span>
                 <div>
                   <h4>Phone</h4>
@@ -67,7 +40,7 @@ export default function Contact() {
 
               <div className="contact-item">
                 <span className="contact-icon">
-                  <img src="/src/assets/loc.webp" alt="" className="company-logo"/>
+                  <img src={loc} alt="" className="company-logo"/>
                 </span>
                 <div>
                   <h4>Location</h4>
@@ -77,7 +50,7 @@ export default function Contact() {
 
               <div className="contact-item">
                 <span className="contact-icon">
-                  <img src="/src/assets/github.png" alt="" className="company-logo"/>
+                  <img src={github} alt="" className="company-logo"/>
                 </span>
                 <div>
                   <h4>GitHub</h4>
