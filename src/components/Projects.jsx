@@ -39,15 +39,15 @@ export default function Projects() {
       id: 5,
       title: "Friendly AI Chat Assistant",
       description: "A guided conversation tool using generative AI, designed for users unfamiliar with artificial intelligence. It helps them formulate questions and provides accurate answers tailored to their needs.",
-      tech: ["React", "JavaScript", "Vercel", "Supabase", "JWT Authentication", "Github API", "Jira API", "React Native"],
+      tech: ["React", "JavaScript", "Vercel", "AI APIs"],
       link: "https://github.com/ByPona",
       type: 'In progress...',
       icon: "🤖"
     },{
       id: 6,
       title: "Testing Playground",
-      description: "A guided conversation tool using generative AI, designed for users unfamiliar with artificial intelligence. It helps them formulate questions and provides accurate answers tailored to their needs.",
-      tech: ["React", "JavaScript", "Vercel", "Supabase", "JWT Authentication", "Github API", "Jira API", "React Native"],
+      description: "A collection of test automation examples and best practices for various testing frameworks and tools. A resource for learning and improving testing skills.",
+      tech: ["React", "JavaScript", "Vercel", "Playwright", "Postman", "API Testing", "Vercel"],
       link: "https://github.com/ByPona",
       type: 'In progress...',
       icon: "🤖"
